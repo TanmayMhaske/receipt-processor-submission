@@ -124,19 +124,6 @@ node app.js
 
 The API will be running at `http://localhost:3000`
 
-## Project Structure
-
-```
-receipt-processor/
-├── app.js                # Main application file
-├── Dockerfile           # Docker configuration
-├── docker-compose.yml   # Optional Docker Compose setup
-├── package.json        # Node.js dependencies
-├── .dockerignore       # Ignore unnecessary files for Docker
-├── README.md           # Project documentation
-└── .gitignore         # Ignore node_modules and logs
-```
-
 ## Notes
 
 - Data is stored in memory and does not persist between application restarts
